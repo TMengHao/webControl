@@ -1,0 +1,537 @@
+09:59:23.358 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 9860 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+09:59:23.367 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+09:59:23.368 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+09:59:25.008 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.146 seconds (JVM running for 5.738)
+10:05:10.698 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 7632 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+10:05:10.708 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+10:05:10.708 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+10:05:12.272 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.082 seconds (JVM running for 6.709)
+10:16:51.165 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 10900 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+10:16:51.174 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+10:16:51.174 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+10:16:53.045 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.313 seconds (JVM running for 7.32)
+10:17:52.458 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 6448 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+10:17:52.472 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+10:17:52.473 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+10:17:53.488 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+10:17:53.593 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 1055 ms
+10:17:53.945 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+10:17:53.948 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:17:53.950 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+10:17:53.955 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+10:17:53.963 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+10:17:53.975 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+10:17:54.085 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+10:17:54.094 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.204 seconds (JVM running for 5.788)
+10:18:30.521 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+10:18:30.522 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 1 ms
+10:28:37.407 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table.html]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:28:37.413 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+10:28:37.415 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table.html]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:28:37.420 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+10:28:37.425 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+10:28:37.425 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+10:29:06.657 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:29:06.661 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+10:29:06.663 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:29:06.667 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+10:29:06.962 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+10:29:06.964 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+10:29:19.585 [http-nio-8080-exec-7] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table   ]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:29:19.595 [http-nio-8080-exec-7] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+10:29:19.597 [http-nio-8080-exec-7] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table   ]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:29:19.612 [http-nio-8080-exec-7] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+10:29:19.615 [http-nio-8080-exec-7] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+10:29:19.616 [http-nio-8080-exec-7] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+10:29:45.338 [http-nio-8080-exec-3] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:29:45.341 [http-nio-8080-exec-3] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+10:29:45.342 [http-nio-8080-exec-3] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:29:45.344 [http-nio-8080-exec-3] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+10:29:45.524 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+10:29:45.526 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+10:32:17.567 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table.html]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:32:17.570 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+10:32:17.572 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table.html]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+10:32:17.574 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+10:32:18.254 [http-nio-8080-exec-1] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+10:32:18.254 [http-nio-8080-exec-1] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+10:33:13.975 [http-nio-8080-exec-1] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table.html]}: dynamic_table()
+	{GET [/editable_table.html]}: editable_table()
+	{GET [/basic_table.html]}: basic_table()
+	{GET [/responsive_table.html]}: responsive_table()
+10:33:13.981 [http-nio-8080-exec-1] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+10:33:13.982 [http-nio-8080-exec-1] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table.html]}: dynamic_table()
+	{GET [/editable_table.html]}: editable_table()
+	{GET [/basic_table.html]}: basic_table()
+	{GET [/responsive_table.html]}: responsive_table()
+10:33:13.984 [http-nio-8080-exec-1] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+10:33:14.153 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+10:33:14.155 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+11:12:03.454 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 9176 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+11:12:03.467 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+11:12:03.468 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+11:12:04.569 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+11:12:04.705 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 1175 ms
+11:12:05.137 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{GET [/ || /login]}: loginPage()
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+11:12:05.140 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table.html]}: dynamic_table()
+	{GET [/editable_table.html]}: editable_table()
+	{GET [/responsive_table.html]}: responsive_table()
+	{GET [/basic_table.html]}: basic_table()
+11:12:05.142 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+11:12:05.148 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+11:12:05.159 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+11:12:05.173 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+11:12:05.282 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+11:12:05.292 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.419 seconds (JVM running for 6.346)
+11:12:13.812 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+11:12:13.813 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 0 ms
+11:36:48.479 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/basic_table]}: basic_table()
+11:36:48.486 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{GET [/ || /login]}: loginPage()
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+11:36:48.489 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/basic_table]}: basic_table()
+11:36:48.496 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+11:36:48.885 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+11:36:48.886 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+11:59:21.462 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/basic_table]}: basic_table()
+11:59:21.471 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{GET [/ || /login]}: loginPage()
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+11:59:21.473 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/basic_table]}: basic_table()
+11:59:21.477 [http-nio-8080-exec-6] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+11:59:21.671 [http-nio-8080-exec-5] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+11:59:21.675 [http-nio-8080-exec-5] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+14:55:22.699 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{GET [/ || /login]}: loginPage()
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+14:55:23.011 [http-nio-8080-exec-3] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+14:55:23.012 [http-nio-8080-exec-3] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+16:28:40.416 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{GET [/ || /login]}: loginPage()
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+16:28:40.419 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/basic_table]}: basic_table()
+16:28:40.431 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+16:28:40.434 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{GET [/form_layouts]}: form_layouts()
+16:28:40.436 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+16:28:40.436 [http-nio-8080-exec-8] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+16:49:37.299 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+	{GET [/form_layouts]}: form_layouts()
+16:49:37.303 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{GET [/ || /login]}: loginPage()
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+16:49:37.305 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/basic_table]}: basic_table()
+16:49:37.309 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+16:49:37.313 [http-nio-8080-exec-9] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+	{GET [/form_layouts]}: form_layouts()
+16:49:37.511 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+16:49:37.512 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+16:57:34.768 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 20500 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+16:57:34.780 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+16:57:34.781 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+16:57:36.424 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+16:57:36.566 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 1712 ms
+16:57:37.069 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+	{GET [/form_layouts]}: form_layouts()
+16:57:37.072 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+16:57:37.073 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table]}: basic_table()
+16:57:37.076 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+16:57:37.081 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+16:57:37.092 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+16:57:37.106 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+16:57:37.225 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+16:57:37.235 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 3.063 seconds (JVM running for 8.546)
+16:57:54.413 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+16:57:54.415 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 0 ms
+16:58:24.753 [http-nio-8080-exec-2] [INFO ] o.b.c.FormControllerupload(27) - email=bluetian1st@gmail.com,username=Blue1st,headerImage=42729,photos=2
+17:04:43.762 [http-nio-8080-exec-7] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+	{GET [/form_layouts]}: form_layouts()
+17:04:44.540 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+17:04:44.542 [http-nio-8080-exec-10] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+17:04:59.008 [http-nio-8080-exec-7] [INFO ] o.b.c.FormControllerupload(30) - email=bluetian1st@gmail.com,username=Blue1st,headerImage=42729,photos=3
+17:43:33.722 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+	{GET [/form_layouts]}: form_layouts()
+17:43:33.734 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+17:43:33.735 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+17:53:57.923 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 11644 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+17:53:57.933 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+17:53:57.933 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+17:53:58.987 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+17:53:59.119 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 1137 ms
+17:53:59.540 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{GET [/form_layouts]}: form_layouts()
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+17:53:59.543 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+17:53:59.544 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/basic_table]}: basic_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/responsive_table]}: responsive_table()
+17:53:59.547 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+17:53:59.552 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+17:53:59.561 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+17:53:59.574 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+17:53:59.681 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+17:53:59.689 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.285 seconds (JVM running for 6.65)
+17:54:06.457 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+17:54:06.458 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 1 ms
+17:55:19.870 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 21180 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+17:55:19.879 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+17:55:19.880 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+17:55:20.791 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+17:55:20.901 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 976 ms
+17:55:21.296 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+	{GET [/form_layouts]}: form_layouts()
+17:55:21.300 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+17:55:21.301 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/basic_table]}: basic_table()
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+17:55:21.304 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+17:55:21.310 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+17:55:21.319 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+17:55:21.332 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+17:55:21.437 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+17:55:21.445 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.101 seconds (JVM running for 6.217)
+17:55:27.496 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+17:55:27.497 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 1 ms
+18:03:17.733 [http-nio-8080-exec-4] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/basic_table]}: basic_table()
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+18:03:18.012 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+18:03:18.014 [http-nio-8080-exec-2] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+18:04:03.011 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 11076 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+18:04:03.020 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+18:04:03.020 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+18:04:03.948 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:04:04.060 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 989 ms
+18:04:04.423 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{GET [/form_layouts]}: form_layouts()
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+18:04:04.426 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+18:04:04.427 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/editable_table]}: editable_table()
+	{GET [/basic_table]}: basic_table()
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/responsive_table]}: responsive_table()
+18:04:04.429 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+18:04:04.434 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+18:04:04.443 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+18:04:04.458 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+18:04:04.551 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+18:04:04.559 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 1.988 seconds (JVM running for 6.477)
+18:09:15.430 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 16760 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+18:09:15.443 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+18:09:15.444 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+18:09:16.784 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+18:09:16.914 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 1376 ms
+18:09:17.428 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{GET [/form_layouts]}: form_layouts()
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+18:09:17.431 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+	{GET [/ || /login]}: loginPage()
+18:09:17.433 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/basic_table]}: basic_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/editable_table]}: editable_table()
+	{GET [/dynamic_table]}: dynamic_table(Model)
+18:09:17.435 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+18:09:17.441 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+18:09:17.450 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+18:09:17.471 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+18:09:17.590 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+18:09:17.598 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 2.827 seconds (JVM running for 8.527)
+18:09:52.690 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+18:09:52.692 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 1 ms
+22:53:29.614 [main] [INFO ] o.b.WebControlApplicationlogStarting(55) - Starting WebControlApplication using Java 1.8.0_191 on DESKTOP-81F5PUE with PID 14312 (D:\homework\java\springLearn\springbootLearn\webcontrol\target\classes started by 90774 in D:\homework\java\springLearn\springbootLearn\webcontrol)
+22:53:29.628 [main] [DEBUG] o.b.WebControlApplicationlogStarting(56) - Running with Spring Boot v2.5.3, Spring v5.3.9
+22:53:29.629 [main] [INFO ] o.b.WebControlApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+22:53:30.550 [main] [DEBUG] o.m.s.b.a.MybatisAutoConfigurationregisterBeanDefinitions(223) - Searching for mappers annotated with @Mapper
+22:53:30.553 [main] [DEBUG] o.m.s.b.a.MybatisAutoConfigurationlambda$registerBeanDefinitions$0(227) - Using auto-configuration base package 'org.blue'
+22:53:30.780 [main] [DEBUG] o.m.s.m.ClassPathMapperScannerdebug(49) - Creating MapperFactoryBean with name 'cityMapper' and 'org.blue.mapper.CityMapper' mapperInterface
+22:53:30.781 [main] [DEBUG] o.m.s.m.ClassPathMapperScannerdebug(49) - Enabling autowire by type for MapperFactoryBean with name 'cityMapper'.
+22:53:31.356 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8080 (http)
+22:53:31.736 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 2034 ms
+22:53:31.852 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfiguredataSource(56) - Init DruidDataSource
+22:53:32.046 [main] [INFO ] c.a.d.p.DruidDataSourceinit(990) - {dataSource-1} inited
+22:53:32.193 [main] [DEBUG] o.m.s.SqlSessionFactoryBeandebug(49) - Property 'mapperLocations' was not specified.
+22:53:32.504 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.FormController:
+	{GET [/form_layouts]}: form_layouts()
+	{POST [/upload]}: upload(String,String,MultipartFile,MultipartFile[])
+22:53:32.510 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.IndexController:
+	{GET [/ || /login]}: loginPage()
+	{POST [/login]}: login(User,HttpSession,Model)
+	{GET [/index.html]}: indexPage(HttpSession,Model)
+22:53:32.511 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.b.c.TableController:
+	{GET [/dynamic_table]}: dynamic_table(Model)
+	{GET [/editable_table]}: editable_table()
+	{GET [/responsive_table]}: responsive_table()
+	{GET [/city]}: getCity(Integer)
+	{GET [/basic_table]}: basic_table()
+22:53:32.513 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlerMethods(294) - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+22:53:32.519 [main] [INFO ] o.s.b.a.w.s.WelcomePageHandlerMapping<init>(57) - Adding welcome page template: index
+22:53:32.534 [main] [DEBUG] _.s.w.s.H.MappingsdetectHandlers(86) - 'beanNameHandlerMapping' {}
+22:53:32.551 [main] [DEBUG] _.s.w.s.H.MappingslogMappings(177) - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]}
+22:53:32.646 [main] [DEBUG] o.m.s.b.a.MybatisAutoConfigurationafterPropertiesSet(266) - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+22:53:32.779 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8080 (http) with context path ''
+22:53:32.792 [main] [INFO ] o.b.WebControlApplicationlogStarted(61) - Started WebControlApplication in 3.83 seconds (JVM running for 9.345)
+22:54:01.163 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+22:54:01.164 [http-nio-8080-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 1 ms
+22:54:16.386 [http-nio-8080-exec-5] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - Creating a new SqlSession
+22:54:16.392 [http-nio-8080-exec-5] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed83064] was not registered for synchronization because synchronization is not active
+22:54:16.705 [http-nio-8080-exec-5] [DEBUG] o.m.s.t.SpringManagedTransactiondebug(49) - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@61ad1051] will not be managed by Spring
+22:54:16.711 [http-nio-8080-exec-5] [DEBUG] o.b.m.C.selectCityByIddebug(137) - ==>  Preparing: select * from mysql where id = ?
+22:54:16.768 [http-nio-8080-exec-5] [DEBUG] o.b.m.C.selectCityByIddebug(137) - ==> Parameters: 1(Integer)
+22:54:16.822 [http-nio-8080-exec-5] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed83064]
+22:54:17.053 [http-nio-8080-exec-1] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - Creating a new SqlSession
+22:54:17.054 [http-nio-8080-exec-1] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7cd6060e] was not registered for synchronization because synchronization is not active
+22:54:17.054 [http-nio-8080-exec-1] [DEBUG] o.m.s.t.SpringManagedTransactiondebug(49) - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@61ad1051] will not be managed by Spring
+22:54:17.054 [http-nio-8080-exec-1] [DEBUG] o.b.m.C.selectCityByIddebug(137) - ==>  Preparing: select * from mysql where id = ?
+22:54:17.055 [http-nio-8080-exec-1] [DEBUG] o.b.m.C.selectCityByIddebug(137) - ==> Parameters: 1(Integer)
+22:54:17.059 [http-nio-8080-exec-1] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7cd6060e]
+22:55:21.286 [http-nio-8080-exec-10] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - Creating a new SqlSession
+22:55:21.286 [http-nio-8080-exec-10] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6894f74d] was not registered for synchronization because synchronization is not active
+22:55:21.320 [http-nio-8080-exec-10] [DEBUG] c.a.d.p.DruidDataSourcegetConnectionDirect(1477) - skip not validate connection.
+22:55:21.350 [http-nio-8080-exec-10] [DEBUG] o.m.s.t.SpringManagedTransactiondebug(49) - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5da4417c] will not be managed by Spring
+22:55:21.351 [http-nio-8080-exec-10] [DEBUG] o.b.m.C.selectCityByIddebug(137) - ==>  Preparing: select * from city where id = ?
+22:55:21.352 [http-nio-8080-exec-10] [DEBUG] o.b.m.C.selectCityByIddebug(137) - ==> Parameters: 1(Integer)
+22:55:21.440 [http-nio-8080-exec-10] [DEBUG] o.b.m.C.selectCityByIddebug(137) - <==      Total: 1
+22:55:21.443 [http-nio-8080-exec-10] [DEBUG] o.m.s.SqlSessionUtilsdebug(49) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6894f74d]

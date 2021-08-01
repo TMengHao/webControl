@@ -1,0 +1,19 @@
+logging:
+  charset:
+    file: UTF-8
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysql?setTimezone=Asia/Shanghai
+    username: root
+    password: Tmh010625
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      default-auto-commit: true
+
+mybatis:
+  type-aliases-package: org.blue.entity
